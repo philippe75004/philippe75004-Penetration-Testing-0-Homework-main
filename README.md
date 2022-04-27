@@ -89,7 +89,7 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 ![zenmap](zenmap-vuln.PNG "zenmap")
 
-![zenmap](zenmap-vuln2.PNG "zenmap")
+![zenmap2](zenmap-vuln2.PNG "zenmap2")
 
 - Once you have identified this vulnerability, answer the following questions for your client: 
 
