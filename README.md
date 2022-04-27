@@ -105,8 +105,10 @@ Your client has asked that you help identify any vulnerabilities with their file
 
   3. What mitigation strategies can you recommendations for the client to protect their server:
 
-**Output Encoding and HTML Sanitization mitigation for example and also the variables should not be interpreted as code instead of text.**
+**Output Encoding, Safe Links, HTML Sanitization and other controls will mitigate and usually a WAF like citrix have these controls to prevent.**
   
  *References: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+
+ *References: https://docs.citrix.com/en-us/citrix-adc/current-release/application-firewall/security-checks-overview.html#:~:text=The%20Web%20App%20Firewall%20advanced,be%20detected%20by%20signatures%20alone
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
