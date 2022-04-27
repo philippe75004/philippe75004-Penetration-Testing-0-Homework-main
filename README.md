@@ -50,11 +50,11 @@ module load xssed
 
 options set SOURCE demo.testfire.net
 
-Is Altoro Mutual vulnerable to XSS: yes as recon found 1 vulnerability on the search url which execute a script from a sec-r1z.com
-
 ![recon install](/RECON-NG-1.PNG "recon install")
 
 ![recon result](RECON-NG-2.PNG "recon result")
+
+Is Altoro Mutual vulnerable to XSS: yes as recon found 1 vulnerability on the search url which execute a script from a sec-r1z.com
 
 ### Step 5: Zenmap
 
@@ -64,20 +64,24 @@ Your client has asked that you help identify any vulnerabilities with their file
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`:
 
-nmap -sV -oN /tmp/zenmapscan.txt 192.168.0.10
+- nmap -sV -oN /tmp/zenmapscan.txt 192.168.0.10
 
 - Zenmap vulnerability script command: nmap -sV --script=vulscan/vulscan.nse demo.testfire.net
 
 - Once you have identified this vulnerability, answer the following questions for your client: actually see screenshot, no findings but let's pretend XSS vulnerability:
 
-  1. What is the vulnerability: XSS = Cross_Site Scripting
+  1. What is the vulnerability: XSS = 
+ 
+- Cross_Site Scripting
 
-  2. Why is it dangerous: Attacker can remotely execute scripts and accessing not allowed data like databases, usernames, password...
+  2. Why is it dangerous:
 
-  3. What mitigation strategies can you recommendations for the client to protect their server: Output Encoding and HTML Sanitization for example, the variables should not be interpreted as code instead of text;
+- Attacker can remotely execute scripts and accessing not allowed data like databases, usernames, password...
+
+  3. What mitigation strategies can you recommendations for the client to protect their server:
+
+- Output Encoding and HTML Sanitization for example, the variables should not be interpreted as code instead of text.
   
  *References: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
-  
-
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
