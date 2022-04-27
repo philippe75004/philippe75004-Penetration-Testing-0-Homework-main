@@ -44,11 +44,13 @@ testfire.net.	IN	A	65.61.137.117         asia3.akam.net. hostmaster.akamai.com.
 
 - Set the source to `demo.testfire.net`. 
 
+
 **module load xssed**
+**options set SOURCE demo.testfire.net **
 
 - Run the module. 
 
-**options set SOURCE demo.testfire.net**
+**run**
 
 ![recon install](/RECON-NG-1.PNG "recon install")
 
