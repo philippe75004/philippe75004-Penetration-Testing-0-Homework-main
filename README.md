@@ -28,9 +28,11 @@ demo.testfire.net	IN	A	65.61.137.117
 
 #### Step 3: Shodan
 
-- What open ports and running services did Shodan find: http ports: 80 + 443 + 8080
+- What open ports and running services did Shodan find: http ports: 80 + 443 + 8080 on ip: 65.61.137.117
 
 Web server running on Apache Tomcat/Coyote JSP engine1.1
+
+![shodan](/shodan.PNG "shodan")
 
 #### Step 4: Recon-ng
 
