@@ -22,9 +22,9 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
   3. What is the company they use to store their infrastructure: Rackspace Cloud provider
 
-  4. What is the IP address of the DNS server: 65.61.137.117, see below dns A record which is the same ip address.
-  
-testfire.net.	IN	A	65.61.137.117
+  4. What is the IP address of the DNS server: 65.61.137.117, see below akamai.com dns servers" :
+
+testfire.net.	IN	A	65.61.137.117         asia3.akam.net. hostmaster.akamai.com.
 
 ![dig](/dig.PNG "dig")
 
