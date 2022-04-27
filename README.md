@@ -34,7 +34,7 @@ testfire.net.	IN	A	65.61.137.117         asia3.akam.net. hostmaster.akamai.com.
 
 Web server running on Apache Tomcat/Coyote JSP engine1.1
 
-![shodan](/shodan.PNG "shodan")
+![shodan](/Shodan.PNG "shodan")
 
 #### Step 4: Recon-ng
 
