@@ -105,7 +105,7 @@ Your client has asked that you help identify any vulnerabilities with their file
 
   3. What mitigation strategies can you recommendations for the client to protect their server:
 
-**Output Encoding, Safe Links, HTML Sanitization and other controls will mitigate and usually a WAF like citrix have these controls to prevent.**
+**Output Encoding, Safe Links, HTML Sanitization and other controls will mitigate and usually a WAF like citrix ADC have these controls to prevent.**
   
  **References**: 
  
