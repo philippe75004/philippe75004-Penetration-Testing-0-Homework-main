@@ -84,6 +84,7 @@ Your client has asked that you help identify any vulnerabilities with their file
 - Zenmap vulnerability script command: 
 
 **nmap -sV --script http-apache-server-status demo.testfire.net**
+
 **nmap -sV --script http-csrf demo.testfire.net**
 
 ![recon result](Nmap-vuln.PNG "recon result")
