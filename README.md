@@ -87,7 +87,9 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 **nmap -sV --script http-csrf demo.testfire.net**
 
-![recon result](Nmap-vuln.PNG "recon result")
+![zenmap](zenmap-vuln.PNG "zenmap")
+
+![zenmap](zenmap-vuln2.PNG "zenmap")
 
 - Once you have identified this vulnerability, answer the following questions for your client: 
 
