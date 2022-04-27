@@ -9,7 +9,10 @@ via a simple google search like this one: **site:demo.testfire.net Chief Executi
 
 - How can this information be helpful to an attacker: we know he is also the chairman, we can now search for:
 
-email addresses, usernames, paswords to gather informations (reconnaissance phase) via the OSINT framework: https://osintframework.com/
+**Email addresses, usernames, paswords, birthdates, etc... to gather informations (passive reconnaissance phase) via the OSINT framework: https://osintframework.com/
+and hacker will prepare a whale phising attack to the CEO with the informations gathered.**
+
+**A Protection against that is to teach the users not publish online any private informations: phone #, company email address, social media posts, linkedin / forums posts**
 
 
 #### Step 2: DNS and Domain Discovery
@@ -28,6 +31,8 @@ testfire.net.	IN	A	65.61.137.117         asia3.akam.net. hostmaster.akamai.com.
 
 ![dig](/dig.PNG "dig")
 
+**A Protection against that will be to host the DNS to a third party provider like cloudfare which protect more against privacy when outsiders are trying to gather information**
+
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find: http ports: **80 + 443 + 8080** on ip: **65.61.137.117**
@@ -35,6 +40,8 @@ testfire.net.	IN	A	65.61.137.117         asia3.akam.net. hostmaster.akamai.com.
 **Web server running on Apache Tomcat/Coyote JSP engine1.1**
 
 ![shodan](/Shodan.PNG "shodan")
+
+**A Protection against that will be to filter those ports and only allow traffic from trusted sources, users and or countries**
 
 #### Step 4: Recon-ng
 
@@ -60,6 +67,8 @@ Is Altoro Mutual vulnerable to XSS:
 
 **yes as recon found 1 vulnerability on the search url which execute a script from a sec-r1z.com**
 
+**A Protection against that will be to setup a SIEM, ELK to alerts and an IPS TO BLOCK this kind of scanning traffic when occured**
+
 ### Step 5: Zenmap
 
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
@@ -74,7 +83,10 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 - Zenmap vulnerability script command: 
 
-**nmap -sV --script=vulscan/vulscan.nse demo.testfire.net**
+**nmap -sV --script http-apache-server-status demo.testfire.net**
+**nmap -sV --script http-csrf demo.testfire.net**
+
+![recon result](Nmap-vuln.PNG "recon result")
 
 - Once you have identified this vulnerability, answer the following questions for your client: 
 
