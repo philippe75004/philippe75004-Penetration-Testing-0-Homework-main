@@ -105,7 +105,7 @@ Your client has asked that you help identify any vulnerabilities with their file
 
   3. What mitigation strategies can you recommendations for the client to protect their server:
 
-**Output Encoding and HTML Sanitization for example, the variables should not be interpreted as code instead of text.**
+**Output Encoding and HTML Sanitization mitigation for example and also the variables should not be interpreted as code instead of text.**
   
  *References: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
 ---
