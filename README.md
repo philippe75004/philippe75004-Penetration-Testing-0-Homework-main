@@ -48,7 +48,9 @@ options set SOURCE demo.testfire.net
 
 Is Altoro Mutual vulnerable to XSS: yes as recon found 1 vulnerability on the search url which execute a script from a sec-r1z.com
 
-See screenshots: RECON-NG-1 + RECON-NG-2 
+![recon install](/RECON-NG-1.PNG "recon install")
+
+![recon result](RECON-NG-2.PNG "recon result")
 
 ### Step 5: Zenmap
 
