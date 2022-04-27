@@ -14,7 +14,7 @@ email addresses, usernames, paswords to gather informations (reconnaissance phas
 
 #### Step 2: DNS and Domain Discovery
 
-Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
+Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results: 65.61.137.117
 
   1. Where is the company located: US, Sunnyvale, 94085 California
 
@@ -22,9 +22,11 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
   3. What is the company they use to store their infrastructure: Rackspace Cloud provider
 
-  4. What is the IP address of the DNS server: 65.61.137.117, see below dns A record
+  4. What is the IP address of the DNS server: 65.61.137.117, see below dns A record which is the same ip address.
   
-demo.testfire.net	IN	A	65.61.137.117
+testfire.net.	IN	A	65.61.137.117
+
+![dig](/dig.PNG "dig")
 
 #### Step 3: Shodan
 
